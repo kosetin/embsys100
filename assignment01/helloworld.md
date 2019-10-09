@@ -1,1 +1,1 @@
-<a href="#"><img src="https://github.com/kosetin/embsys100/blob/assets/assignment01/assignment_01.JPG" /></a>
+<a href="HelloWorldImage"><img src="https://github.com/kosetin/embsys100/blob/assets/assignment01/assignment_01.JPG" /></a>
