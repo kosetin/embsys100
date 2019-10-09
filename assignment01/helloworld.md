@@ -1,3 +1,3 @@
-![alt text][logo]
+![assignment01][image]
 
-[logo]: assignment_01.JPG "Hello World!"
+[image]: ../assets/assignment01.JPG?raw=true "Hello World!"
