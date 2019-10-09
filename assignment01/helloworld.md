@@ -1,3 +1,3 @@
 ![assignment01][image]
 
-[image]: ../assets/assignment01.JPG?raw=true "Hello World!"
+[image]: https://github.com/kosetin/embsys100/blob/assets/assignment01/assignment_01.JPG "Hello World!"
