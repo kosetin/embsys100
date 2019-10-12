@@ -5,8 +5,8 @@ Representing negative numbers as two's complement allows performing basic mathem
 
 	Binary 4-bit | Binary 8-bit | Decimal
 	----|-------|--------
-	0101 | 0000 0101 | 5
-	1011 | 1111 1011 |-5
+	0101 | 0000 0101 |  5
+	1011 | 1111 1011 | -5
 
 - Avoids ambiguity when representing zero:
 
