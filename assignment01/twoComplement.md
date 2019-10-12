@@ -2,7 +2,8 @@
 Representing negative numbers as two's complement allows performing basic mathematical operations in fewer steps.
 - adding/subtracting a negative number represented as two's complement does not require checking the sign bit nor adding the end-around carry:
 
-<pre><code>00000 000   (carry)
+<pre><code>
+	 00000 000   (carry)
 	  0000 1010  ( 10)
 	+ 1111 0001  (−15)
  	  ===========
