@@ -7,8 +7,9 @@ Representing negative numbers as two's complement allows performing basic mathem
 + 1111 0001  (−15)
   ===========
   0011 1011  ( 59)
+</code></pre>
 
- 11110 001   (borrow)
+<pre><code> 11110 001   (borrow)
   0000 1010  ( 10)
 - 1111 0001  (−15)
   ===========
