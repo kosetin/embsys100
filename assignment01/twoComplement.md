@@ -23,7 +23,7 @@ Representing negative numbers as two's complement allows performing basic mathem
 	0101 | 0000 0101 |  5
 	1011 | 1111 1011 | -5
 
-- Avoids ambiguity when representing zero:
+- Two's complement representation avoids ambiguity when representing zero:
 
 	Binary | Decimal
 	-------|-------:
