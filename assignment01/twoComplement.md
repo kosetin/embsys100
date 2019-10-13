@@ -1,5 +1,5 @@
 # Why use two’s complement to represent negative numbers? #
-Representing negative numbers as two's complement allows performing basic mathematical operations in fewer steps.
+Representing negative numbers as two's complement allows performing basic arithmetic operations in fewer steps.
 - adding/subtracting a negative number represented as two's complement does not require checking the sign bit nor adding the end-around carry:
 
 <pre><code> 11000 000   (carry)
@@ -23,7 +23,7 @@ Representing negative numbers as two's complement allows performing basic mathem
 	0101 | 0000 0101 |  5
 	1011 | 1111 1011 | -5
 
-- Two's complement representation avoids ambiguity when representing zero:
+- Two's complement representation avoids ambiguity when representing zero (no representation of "negative zero"):
 
 	Binary | Decimal
 	-------|-------:

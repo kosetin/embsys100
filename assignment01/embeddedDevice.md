@@ -1,5 +1,5 @@
 ### Describe an embedded device ###
-
+A <a href="https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0218571.g001">thermal controller</a> for thermal cycling in portable polymerase chain reaction devices. Receives input from temperature detectors (e.g. resistance temperature detectors - RTD), controls pulse width modulation (PWM) heater modules and fans.
 ### Describe how its embedded system works ###
 
 ### What design challenges does it present ###
