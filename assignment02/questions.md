@@ -1,16 +1,16 @@
-<ol>
-  <li>
-  1. Inject 0x1FFFFFFF for the “counter” value in the variable window, then step thru the program only once to increment “counter”.
+<ol type="1">
+  <li>Inject 0x1FFFFFFF for the “counter” value in the variable window, then step thru the program only once to increment “counter”.
     <ol type="a"> 
       <li>What is the value of the “counter” from the “Locals” window?</li>
       <li>What is the value of the “counter” in the “Register” window?</li>
       <li>Which flags are set in the APSR register? Explain why?</li>
     </ol>
   </li>
-2. If your write all Fs (0XFFFFFFFF) in the Register value for “counter” then step thru the program once to increment “counter”
-
-a) What happens to the value of “counter” in the “Locals” window?
-b) What flags, if any, are set in the APSR?
+  <li>If your write all Fs (0XFFFFFFFF) in the Register value for “counter” then step thru the program once to increment “counter”
+    <ol type="a">
+       <li>What happens to the value of “counter” in the “Locals” window?</li>
+       <li>What flags, if any, are set in the APSR?</li>
+    </ol>
 
 3. Change the “counter” variable type in your code to “unsigned”. Inject the values “0x1FFFFFFF” then step thru the program to increment the “counter” once:
 
