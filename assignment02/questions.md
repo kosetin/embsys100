@@ -1,3 +1,6 @@
+<style type="text/css">
+    ol ol { list-style-type: upper-alpha; }
+</style>
 <ol type="1">
   <li>Inject 0x1FFFFFFF for the “counter” value in the variable window, then step thru the program only once to increment “counter”.
     <ol type="a"> 
