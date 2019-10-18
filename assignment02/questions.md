@@ -1,8 +1,8 @@
 1. Inject 0x1FFFFFFF for the “counter” value in the variable window, then step thru the program only once to increment “counter”.
 
-  - a. What is the value of the “counter” from the “Locals” window?
-  - b. What is the value of the “counter” in the “Register” window?
-  - c. Which flags are set in the APSR register? Explain why?
+        a. What is the value of the “counter” from the “Locals” window?
+        b. What is the value of the “counter” in the “Register” window?
+        c. Which flags are set in the APSR register? Explain why?
 
 2. If your write all Fs (0XFFFFFFFF) in the Register value for “counter” then step thru the program once to increment “counter”
 
