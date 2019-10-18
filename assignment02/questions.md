@@ -1,19 +1,13 @@
-<style type="text/css">
-    ol ol { list-style-type: upper-alpha; }
-</style>
-<ol type="1">
-  <li>Inject 0x1FFFFFFF for the “counter” value in the variable window, then step thru the program only once to increment “counter”.
-    <ol type="a"> 
-      <li>What is the value of the “counter” from the “Locals” window?</li>
-      <li>What is the value of the “counter” in the “Register” window?</li>
-      <li>Which flags are set in the APSR register? Explain why?</li>
-    </ol>
-  </li>
-  <li>If your write all Fs (0XFFFFFFFF) in the Register value for “counter” then step thru the program once to increment “counter”
-    <ol type="a">
-       <li>What happens to the value of “counter” in the “Locals” window?</li>
-       <li>What flags, if any, are set in the APSR?</li>
-    </ol>
+1. Inject 0x1FFFFFFF for the “counter” value in the variable window, then step thru the program only once to increment “counter”.
+
+  - a. What is the value of the “counter” from the “Locals” window?
+  - b. What is the value of the “counter” in the “Register” window?
+  - c. Which flags are set in the APSR register? Explain why?
+
+2. If your write all Fs (0XFFFFFFFF) in the Register value for “counter” then step thru the program once to increment “counter”
+
+a) What happens to the value of “counter” in the “Locals” window?
+b) What flags, if any, are set in the APSR?
 
 3. Change the “counter” variable type in your code to “unsigned”. Inject the values “0x1FFFFFFF” then step thru the program to increment the “counter” once:
 
@@ -54,4 +48,3 @@ a) What is the address where “counter” is stored?
 b) Is the “counter” variable stored in RAM or ROM?
 c) What is the value of “counter” at the end of the program (halting at the return 0
 statement).
-</ol>
