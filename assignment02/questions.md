@@ -67,16 +67,16 @@
 
 6. Change the source code to the following, then run the program still in the simulator:
 ```c
-int counter = 0x0;
+	int counter = 0x0;
 
-int main() {
-  int *p_int = (int *)0x20000000;
-  ++(*p_int);
-  ++(*p_int);
-  ++(*p_int);
-  counter ++;
-  return 0;
-}
+	int main() {
+	  int *p_int = (int *)0x20000000;
+	  ++(*p_int);
+	  ++(*p_int);
+	  ++(*p_int);
+	  counter ++;
+	  return 0;
+	}
 ```
 
    a. What is the value of “counter” at the end of the program (halting at the return 0 statement)
@@ -85,8 +85,8 @@ int main() {
 
    b. Explain why the counter value has changed?
 
-		The local variable p\_int is assigned the address of the counter in memory. 
-		Incrementing the value pointed to by p\_int results in incrementing the value stored at 
+		The local variable p_int is assigned the address of the counter in memory. 
+		Incrementing the value pointed to by p_int results in incrementing the value stored at 
 		the memory address holding the counter value (3 times). 
 		The final post-increment operation on the counter increments the counter value one more time.
 
