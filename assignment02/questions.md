@@ -2,63 +2,63 @@
 
    a. What is the value of the “counter” from the “Locals” window?
 
-	0x20000000
+		0x20000000
 
    b. What is the value of the “counter” in the “Register” window?
 
-	0x20000000
+		0x20000000
 
    c. Which flags are set in the APSR register? Explain why?
 
-	No flags are set because the resulting value of the counter is a positive (N flag not set), non-zero (Z flag not set) value that fits into the signed int range (C and V flags are not set).
+		No flags are set because the resulting value of the counter is a positive (N flag not set), non-zero (Z flag not set) value that fits into the signed int range (C and V flags are not set).
 
 2. If your write all Fs (0XFFFFFFFF) in the Register value for “counter” then step thru the program once to increment “counter”
 
    a. What happens to the value of “counter” in the “Locals” window?
 
-	counter becomes zero
+		counter becomes zero
 
    b. What flags, if any, are set in the APSR?
 
-	Z flag is set because the result of ADDS instruction is zero. C flag is set because incrementing the value 0xFFFFFFFF overflows the 32-bit register but does not wrap the decimal value around (V flag is not set).
+		Z flag is set because the result of ADDS instruction is zero. C flag is set because incrementing the value 0xFFFFFFFF overflows the 32-bit register but does not wrap the decimal value around (V flag is not set).
 
 3. Change the “counter” variable type in your code to “unsigned”. Inject the values “0x1FFFFFFF” then step thru the program to increment the “counter” once:
 
    a. What is the value of “counter” in the “Locals” window after incrementing for each value?
 
-	0x20000000
+		0x20000000
 
    b. What flags, if any, are set in the APSR? Explain why?
 
-	No flags are set because the resulting value of the counter is a positive (N flag not set), non-zero (Z flag not set) value that fits into the unsigned int range (C and V flags are not set).
+		No flags are set because the resulting value of the counter is a positive (N flag not set), non-zero (Z flag not set) value that fits into the unsigned int range (C and V flags are not set).
 
 4. Change the “counter” variable type in your code to “unsigned”. Inject the values “0xFFFFFFFF” then step thru the program to increment the “counter” once:
 
    a. What is the value of “counter” in the “Locals” window after incrementing for each value?
 
-	0x00000000
+		0x00000000
 
    b. What flags, if any, are set in the APSR? Explain why?
 
-	Z flag is set because the result of ADDS instruction is zero. C flag is set because incrementing the value 0xFFFFFFFF overflows the 32-bit register.
+		Z flag is set because the result of ADDS instruction is zero. C flag is set because incrementing the value 0xFFFFFFFF overflows the 32-bit register.
 
 5. Move the “counter’ variable outside of main (at the top of the file):
 
    a. What is the scope of the variable “counter”?
 
-	File scope
+		File scope
 
    b. Is it still visible in the “Locals” view?
 
-	No
+		No
 
    c. In which window view can we track “counter” now?
 
-	In Watch view
+		In Watch view
 
    d. What is the address of the “counter” variable in memory?
 
-	0x20000000
+		0x20000000
 
 6. Change the source code to the following, then run the program still in the simulator:
 ```c
@@ -72,7 +72,6 @@ int main() {
   counter ++;
   return 0;
 }
-```
 
    a. What is the value of “counter” at the end of the program (halting at the return 0 statement)
 
