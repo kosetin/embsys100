@@ -22,10 +22,8 @@
    b. What flags, if any, are set in the APSR?
 
 		Z flag is set because the result of ADDS instruction is zero. 
-
 		C flag is set because incrementing the value 0xFFFFFFFF overflows the 32-bit register 
-
-		but does not wrap the decimal value around (V flag is not set).
+		but does not wrap the decimal value around (overflow V flag is not set).
 
 3. Change the “counter” variable type in your code to “unsigned”. Inject the values “0x1FFFFFFF” then step thru the program to increment the “counter” once:
 
@@ -36,7 +34,7 @@
    b. What flags, if any, are set in the APSR? Explain why?
 
 		No flags are set because the resulting value of the counter is a positive (N flag not set), 
-		non-zero (Z flag not set) value that fits into the unsigned int range (C and V flags are not set).
+		non-zero (Z flag not set) value that fits into the unsigned int range (C flag is not set).
 
 4. Change the “counter” variable type in your code to “unsigned”. Inject the values “0xFFFFFFFF” then step thru the program to increment the “counter” once:
 
@@ -80,6 +78,7 @@ int main() {
   return 0;
 }
 ```
+
    a. What is the value of “counter” at the end of the program (halting at the return 0 statement)
 
 		4
@@ -87,7 +86,9 @@ int main() {
    b. Explain why the counter value has changed?
 
 		The local variable p\_int is assigned the address of the counter in memory. 
-		Incrementing the value pointed to by p\_int results in incrementing the value stored at the memory address holding the counter value (3 times). The final post-increment operation on the counter increments the counter value one more time.
+		Incrementing the value pointed to by p\_int results in incrementing the value stored at 
+		the memory address holding the counter value (3 times). 
+		The final post-increment operation on the counter increments the counter value one more time.
 
 7. Change the setting of IAR to run the same program on the evaluation board:
 
