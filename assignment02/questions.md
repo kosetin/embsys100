@@ -94,7 +94,7 @@ to a sign overflow from 2147483647 to -2147483648 in decimal when the value is a
 
    b. Is the “counter” variable stored in RAM or ROM?
 
-	`Table 2-11 "Memory access behavior" in Section 2.2.3 Behavior of memory accesses of the` <a href="http://infocenter.arm.com/help/topic/com.arm.doc.dui0553b/DUI0553.pdf">Cortex-M4 Devices Generic User Guide</a> `states that direct access to 0x20000000 address behaves as SRAM memory access. The counter variable is stored in RAM then.` 
+	`Table 2-11 "Memory access behavior" in Section 2.2.3 Behavior of memory accesses of the` [`Cortex-M4 Devices Generic User Guide`](http://infocenter.arm.com/help/topic/com.arm.doc.dui0553b/DUI0553.pdf) `states that direct access to 0x20000000 address behaves as SRAM memory access. The counter variable is stored in RAM then.` 
 
    c. What is the value of “counter” at the end of the program (halting at the return 0 statement).
 
