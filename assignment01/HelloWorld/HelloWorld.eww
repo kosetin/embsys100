@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <workspace>
-  <project>
-    <path>$WS_DIR$\HelloWorld.ewp</path>
-  </project>
-  <batchBuild/>
+    <project>
+        <path>$WS_DIR$\..\..\assignment02\assignment02_source\assignment02.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\..\e,bsys_demo.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\HelloWorld.ewp</path>
+    </project>
+    <batchBuild />
 </workspace>
-
-
