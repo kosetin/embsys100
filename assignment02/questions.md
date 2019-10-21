@@ -80,11 +80,11 @@ to a sign overflow from 2147483647 to -2147483648 in decimal when the value is a
 
    a. *What is the value of “counter” at the end of the program (halting at the return 0 statement)*
 
-	4
+	`4`
 
    b. *Explain why the counter value has changed?*
 
-	The local variable p\_int is assigned the memory address of the global counter variable. Incrementing the value pointed to by p_int results in incrementing the value stored at the memory address holding the counter value (3 times). The final post-increment operation on the counter increments the counter value one more time.
+	`The local variable p\_int is assigned the memory address of the global counter variable. Incrementing the value pointed to by p_int results in incrementing the value stored at the memory address holding the counter value (3 times). The final post-increment operation on the counter increments the counter value one more time.`
 
 7. *Change the setting of IAR to run the same program on the evaluation board:*
 
