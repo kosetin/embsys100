@@ -61,7 +61,7 @@ to a sign overflow from 2147483647 to -2147483648 in decimal when the value is a
 
 	`0x20000000`
 
-6. *Change the source code to the following, then run the program still in the simulator:*
+*Change the source code to the following*
 
 ```c		
 	int counter = 0x0;
@@ -76,6 +76,7 @@ to a sign overflow from 2147483647 to -2147483648 in decimal when the value is a
 	}
 ```
 
+6. *Run the program still in the simulator:*
 
    a. *What is the value of “counter” at the end of the program (halting at the return 0 statement)*
 
