@@ -72,7 +72,8 @@ to a sign overflow from 2147483647 to -2147483648 in decimal when the value is a
 	  ++(*p_int);
 	  counter ++;
 	  return 0;
-	}```
+	}
+```
 
    a. *What is the value of “counter” at the end of the program (halting at the return 0 statement)*
 
