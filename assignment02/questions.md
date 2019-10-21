@@ -84,7 +84,7 @@ to a sign overflow from 2147483647 to -2147483648 in decimal when the value is a
 
    b. Explain why the counter value has changed?
 
-	`The local variable p\_int is assigned the memory address of the global counter variable. Incrementing the value pointed to by p_int results in incrementing the value stored at the memory address holding the counter value (3 times). The final post-increment operation on the counter increments the counter value one more time.`
+	`The local variable p_int is assigned the memory address of the global counter variable. Incrementing the value pointed to by p_int results in incrementing the value stored at the memory address holding the counter value (3 times). The final post-increment operation on the counter increments the counter value one more time.`
 
 7. *Change the setting of IAR to run the same program on the evaluation board:*
 
@@ -94,7 +94,7 @@ to a sign overflow from 2147483647 to -2147483648 in decimal when the value is a
 
    b. Is the “counter” variable stored in RAM or ROM?
 
-	Table 2-11 "Memory access behavior" in Section 2.2.3 Behavior of memory accesses of the <a href="http://infocenter.arm.com/help/topic/com.arm.doc.dui0553b/DUI0553.pdf">Cortex-M4 Devices Generic User Guide</a> states that direct access to 0x20000000 address behaves as SRAM memory access. The counter variable is stored in RAM then. 
+	`Table 2-11 "Memory access behavior" in Section 2.2.3 Behavior of memory accesses of the <a href="http://infocenter.arm.com/help/topic/com.arm.doc.dui0553b/DUI0553.pdf">Cortex-M4 Devices Generic User Guide</a> states that direct access to 0x20000000 address behaves as SRAM memory access. The counter variable is stored in RAM then.` 
 
    c. What is the value of “counter” at the end of the program (halting at the return 0 statement).
 
