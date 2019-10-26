@@ -4,10 +4,10 @@
         <path>$WS_DIR$\..\..\assignment02\assignment02_source\assignment02.ewp</path>
     </project>
     <project>
-        <path>$WS_DIR$\..\..\..\e,bsys_demo.ewp</path>
+        <path>$WS_DIR$\HelloWorld.ewp</path>
     </project>
     <project>
-        <path>$WS_DIR$\HelloWorld.ewp</path>
+        <path>$WS_DIR$\..\..\..\MyBlinkingLED\MyBlinkingLED.ewp</path>
     </project>
     <batchBuild />
 </workspace>
