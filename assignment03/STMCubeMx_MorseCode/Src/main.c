@@ -121,7 +121,7 @@ int main(void)
 
   /* USER CODE BEGIN 3 */
     K O N S T A N T I N
-    hold(7*UNIT);
+    hold(6*UNIT);
   }
   /* USER CODE END 3 */
 

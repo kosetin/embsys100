@@ -64,7 +64,7 @@ int main()
   while (1)
   {
    K O N S T A N T I N
-   hold(7*UNIT);
+   hold(6*UNIT);
   }
   
   return 0;
