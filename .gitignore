@@ -1,3 +1,5 @@
 **/*.pdf
-**/STMCubeMx*/**
+**/STMCubeMx*/*
+!/**/STMCubeMx*/Src
+**/STMCubeMx*/Src/*
 !/**/STMCubeMx*/Src/main.c
