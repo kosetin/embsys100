@@ -21,44 +21,44 @@ c. What were the instructions produced when writing to the GPIOx_ODR bit[5] dire
 
 2. *Create a function with multiple arguments (5 arguments for example) and call that function from within another function. Trace thru the assembler and note:*
 
-   a. How does the calling function pass the values to the called function?
+a. How does the calling function pass the values to the called function?
 
 	` `
 
-   b. What extra code did the compiler generate before calling the function with the multiple arguments?
+b. What extra code did the compiler generate before calling the function with the multiple arguments?
 
 	` `
 	
-   c. What extra code did the compiler generate inside the called function with the multiple list of arguments?
+c. What extra code did the compiler generate inside the called function with the multiple list of arguments?
    
-   d. Any other observations?
+d. Any other observations?
 
 3. *Following the queue data structure approach, design, implement and test a stack data structure:*
 
-   a. The following is the list of requirements:
+a. The following is the list of requirements:
    
-		i. The stack should have a predefined size
+   i. The stack should have a predefined size
 		
-		ii. The stack supports “int” data types.
+   ii. The stack supports “int” data types.
 		
-		iii. Provide a function to initialize the stack internals.
-		
-		iv. Provide a function to push an element onto the stack
-		
-		v. Provide a function to pop an element off the stack.
-		
-		vi. Provide a function that returns 1 if stack is empty.
-		
-		vii. Provide a function that returns 1 if stack is full.
+   iii. Provide a function to initialize the stack internals.
 
-   b. Provide a list of the test cases and their implementation inside of main.c
+   iv. Provide a function to push an element onto the stack
+	
+   v. Provide a function to pop an element off the stack.
+		
+   vi. Provide a function that returns 1 if stack is empty.
+		
+   vii. Provide a function that returns 1 if stack is full.
 
-   c. Separate the stack code from the rest of the test code (create stack.h & stack.c)
+b. Provide a list of the test cases and their implementation inside of main.c
+
+c. Separate the stack code from the rest of the test code (create stack.h & stack.c)
 
 4. *Bonus: Using the power of pointers and type casting, create a function that can determine if a computer is big-endian or little-endian. Test your function in the simulator (Hint: modify the Project Options) against:*
 
-   a. Device STM32F401RE
+a. Device STM32F401RE
 
-   b. Cortex M4 (Little endian option)
+b. Cortex M4 (Little endian option)
    
-   c. Cortex M4 (Big Endian option)
+c. Cortex M4 (Big Endian option)
