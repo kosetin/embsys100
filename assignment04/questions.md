@@ -10,7 +10,7 @@
    0x800'0090: 0x6028         STR       R0, [R5]
 ```
 
-      c. What were the instructions produced when writing to the GPIOx_ODR bit[5] directly?
+     c. What were the instructions produced when writing to the GPIOx_ODR bit[5] directly?
    
 ```assembly		
    0x800'0084: 0x4d0b         LDR.N     R5, [PC, #0x2c]         ; GPIOA_ODR
