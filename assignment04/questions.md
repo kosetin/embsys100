@@ -4,8 +4,8 @@ a. Convert the Blinking Led demo to use the corresponding bit-band address inste
 
 b. What instructions does the compiler produce in assembly for the “writing” to the GPIO bit when using bit-band address?
    
-```assembly
-   0x800'008c: 0x4d0b         LDR.N     R5, [PC, #0x2c]         ; 0x4240'0294
+```assembly															  Bit-band alias base	   GPIO		   GPIO5
+   0x800'008c: 0x4d0b         LDR.N     R5, [PC, #0x2c]         ; 0x42400294 = 0x42000000 + 0x20014 * 32 + 5 * 4
    0x800'008e: 0x2001         MOVS      R0, #1
    0x800'0090: 0x6028         STR       R0, [R5]
 ```
