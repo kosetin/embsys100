@@ -36,8 +36,8 @@ b. What extra code did the compiler generate before calling the function with th
    0x800'1d72: 0x2203         MOVS      R2, #3
    0x800'1d74: 0x2102         MOVS      R1, #2
    0x800'1d76: 0x2001         MOVS      R0, #1		; Before the function call, 
-								; 4 function parameters are in R0-R3 registers, 
-								; the remaining parameter is on the top of the stack
+							; 4 function parameters are in R0-R3 registers, 
+							; the remaining parameter is on the top of the stack
 ```
 	
 c. What extra code did the compiler generate inside the called function with the multiple list of arguments?
@@ -45,7 +45,7 @@ c. What extra code did the compiler generate inside the called function with the
 ```assembly
    0x800'1d40: 0xb430         PUSH      {R4, R5}
    0x800'1d42: 0x9c02         LDR       R4, [SP, #0x8]	; The fifth function parameter 
-								; is loaded from the stack to R4	
+							; is loaded from the stack to R4	
 ```
    
 d. Any other observations?
