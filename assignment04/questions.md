@@ -19,11 +19,11 @@ c. What were the instructions produced when writing to the GPIOx_ODR bit[5] dire
    0x800'008c: 0x6028         STR       R0, [R5]
 ```
 
-2. *Create a function with multiple arguments (5 arguments for example) and call that function from within another function. Trace thru the assembler and note:*
+### 2. Create a function with multiple arguments (5 arguments for example) and call that function from within another function. Trace thru the assembler and note: ###
 
 a. How does the calling function pass the values to the called function?
 
-	`Before the function call with 5 parameters, 4 parameters are stored to R0-R3. The 5th parameter is stored to the top of the stack. In the body of the called function, the 5th parameter is loaded from the top of the stack to R4.`
+	`Before the function call with 5 parameters, 4 parameters are stored to R0-R3. The 5th parameter is stored to the top of the stack. <br>In the body of the called function, the 5th parameter is loaded from the top of the stack to R4.`
 
 b. What extra code did the compiler generate before calling the function with the multiple arguments?
 
@@ -33,7 +33,8 @@ b. What extra code did the compiler generate before calling the function with th
    0x800'1d70: 0x2304         MOVS      R3, #4		; store the 1-4th parameters to R0-R3
    0x800'1d72: 0x2203         MOVS      R2, #3
    0x800'1d74: 0x2102         MOVS      R1, #2
-   0x800'1d76: 0x2001         MOVS      R0, #1		; Before the function call, 4 function parameters are in R0-R3 registers, the remaining parameter is on the top of the stack
+   0x800'1d76: 0x2001         MOVS      R0, #1		; Before the function call, 4 function parameters are in R0-R3 registers, 
+													; the remaining parameter is on the top of the stack
 ```
 	
 c. What extra code did the compiler generate inside the called function with the multiple list of arguments?
@@ -45,7 +46,7 @@ c. What extra code did the compiler generate inside the called function with the
    
 d. Any other observations?
 
-3. *Following the queue data structure approach, design, implement and test a stack data structure:*
+### 3. Following the queue data structure approach, design, implement and test a stack data structure: ###
 
 a. The following is the list of requirements:
    
@@ -67,7 +68,7 @@ b. Provide a list of the test cases and their implementation inside of main.c
 
 c. Separate the stack code from the rest of the test code (create stack.h & stack.c)
 
-4. *Bonus: Using the power of pointers and type casting, create a function that can determine if a computer is big-endian or little-endian. Test your function in the simulator (Hint: modify the Project Options) against:*
+### 4. Bonus: Using the power of pointers and type casting, create a function that can determine if a computer is big-endian or little-endian. Test your function in the simulator (Hint: modify the Project Options) against: ###
 
 a. Device STM32F401RE
 
