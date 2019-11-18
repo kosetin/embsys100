@@ -1,4 +1,6 @@
+#include "stack.h"
 #include <stdio.h>
+#include <limits.h>
 #include <assert.h>
 
 // Bit-band Alias Base Address:
@@ -42,7 +44,6 @@ void delay(int delay);
 void setFlags(int arg1, int arg2, int arg3, int arg4, int arg5);
 
 // PROBLEM 2: Create a function with multiple arguments (e.g. 5 arguments) 
-//            and call that function from within another function.
 void setFlags(int arg1, int arg2, int arg3, int arg4, int arg5)
 {
   flags[0] = arg1;
@@ -64,6 +65,9 @@ void delay(int delay)
   setFlags(1, 2, 3, 4, 5);
 }
 
+// PROBLEM 3: Design, implement and test a stack data structure
+void RunStackTests(void);
+
 // PROBLEM 4 (BONUS): create a function that can determine if a computer is big-endian or little-endian.
 int isLittleEndian() 
 {
@@ -78,7 +82,10 @@ void main(void)
 {
   // PROBLEM 4 (BONUS): create a function that can determine if a computer is big-endian or little-endian.
   printf("The system is %s!\n", isLittleEndian() ? "little-endian" : "big-endian");
-    
+  
+  // PROBLEM 3: Test the stack data structure
+  RunStackTests();
+  
   // PROBLEM 1: Use bit-band region for peripherals:
   {    
     // 1. Enable clock to Peripheral - set bit[0] to 1
@@ -105,4 +112,181 @@ void main(void)
         delay(1000000);
     }
   }
+}
+
+// PROBLEM 3: Test the stack data structure
+void RunStackTests(void)
+{
+    int result1;
+    int result2;
+    int testInt;
+    
+    // *******************************************************************
+    // Test1: Pop item from an empty stack
+    // *******************************************************************
+    // Arrange:
+    result1 = 0;
+    testInt = 0;
+    stack_init();
+    
+    // Act:
+    assert(1 == stack_isEmpty());
+    result1 = stack_pop(&testInt);
+      
+    // Assert:
+    assert(-1 == result1);
+    assert(0 == testInt);
+    
+    
+    // *******************************************************************
+    // Test2: Pop an item from a non-empty stack
+    // *******************************************************************
+    // Arrange:
+    result1 = 42;
+    result2 = 42;
+    testInt = 10;
+    stack_init();
+    
+    // Act:
+    result1 = stack_put(10);
+    assert(1 != stack_isEmpty());
+    assert(1 != stack_isFull());
+    result2 = stack_pop(&testInt);
+    
+    // Assert:
+    assert(0 == result1);
+    assert(0 == result2);
+    assert(10 == testInt);
+    
+    
+    // *******************************************************************
+    // Test3: Fill the stack, then get all items.
+    // *******************************************************************
+    // Arrange:
+    testInt = 0;
+    stack_init();
+    assert(1 == stack_isEmpty());    
+    assert(1 != stack_isFull());
+    
+    // Act:
+    stack_put(-100);
+    stack_put(-99);
+    stack_put(-98);                                    
+    
+    // Assert:
+    assert(1 == stack_isFull());
+    assert(1 != stack_isEmpty());
+
+    assert(0 == stack_pop(&testInt));
+    assert(-98 == testInt);
+
+    assert(0 == stack_pop(&testInt));
+    assert(-99 == testInt);
+
+    assert(0 == stack_pop(&testInt));
+    assert(-100 == testInt);
+
+    
+    // *******************************************************************
+    // Test4: Fill the stack, then put one more item, should fail
+    // *******************************************************************
+    // Arrange:
+    testInt = 0;
+    stack_init();
+    
+    // Act:
+    stack_put(1001);
+    stack_put(1002);
+    stack_put(INT_MAX);
+    
+    // Assert:
+    assert(-1 == stack_put(1));
+
+    assert(0 == stack_pop(&testInt));
+    assert(INT_MAX == testInt);
+
+    assert(0 == stack_pop(&testInt));
+    assert(1002 == testInt);
+
+    assert(0 == stack_pop(&testInt));
+    assert(1001 == testInt);
+
+    assert(1 == stack_isEmpty());
+
+    // ***********************************************************************
+    // Test5: Fill the stack, retrieve one item, then add item, then retieve all
+    // ***********************************************************************
+    // Arrange:
+    testInt = 0;
+    stack_init();
+    
+    // Act:
+    stack_put(INT_MIN);
+    stack_put(2);
+    stack_put(3);
+    
+    // Assert:
+    assert(1 == stack_isFull());
+
+    assert(0 == stack_pop(&testInt));
+    assert(3 == testInt);
+    
+    assert(1 != stack_isFull());    
+
+    assert(0 == stack_put(0));
+
+    assert(0 == stack_pop(&testInt));
+    assert(0 == testInt);
+
+    assert(0 == stack_pop(&testInt));
+    assert(2 == testInt);
+
+    assert(0 == stack_pop(&testInt));
+    assert(INT_MIN == testInt);
+    
+
+    // ***********************************************************************
+    // Test6: Fill the stack and retrieve all items twice
+    // ***********************************************************************
+    // Arrange:
+    testInt = 0;
+    stack_init();
+    
+    // Act:
+    stack_put(3);
+    stack_put(2);
+    stack_put(1);
+    
+    // Assert:
+    assert(1 != stack_isEmpty());
+
+    assert(0 == stack_pop(&testInt));
+    assert(1 == testInt);
+
+    assert(0 == stack_pop(&testInt));
+    assert(2 == testInt);
+
+    assert(0 == stack_pop(&testInt));
+    assert(3 == testInt);
+    
+    assert(1 == stack_isEmpty());    
+
+    assert(0 == stack_put(6));
+    assert(0 == stack_put(5));
+    assert(0 == stack_put(4));
+    
+    assert(1 == stack_isFull());    
+    
+    assert(-1 == stack_put(7));
+
+    assert(0 == stack_pop(&testInt));
+    assert(4 == testInt);
+
+    assert(0 == stack_pop(&testInt));
+    assert(5 == testInt);
+
+    assert(0 == stack_pop(&testInt));
+    assert(6 == testInt);
+    
+    assert(1 == stack_isEmpty());
 }
