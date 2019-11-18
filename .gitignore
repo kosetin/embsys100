@@ -1,4 +1,5 @@
 **/*.pdf
+**/\.*
 **/STMCubeMx*/*
 !/**/STMCubeMx*/Src
 **/STMCubeMx*/Src/*
