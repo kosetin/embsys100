@@ -154,7 +154,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 64 51 44 28 32 45 36 63 54 35 0 40 65 69 21 53 33 42</file>
+                    <file> 64 51 44 28 32 45 36 63 54 35 0 40 65 21 53 33 42</file>
                 </tool>
             </inputs>
         </file>
@@ -299,10 +299,6 @@
                 </tool>
             </outputs>
         </file>
-        <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
-        </forcedrebuild>
     </configuration>
     <configuration>
         <name>Release</name>

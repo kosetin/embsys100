@@ -33,6 +33,7 @@ void swapPointers(void* ptr0, void* ptr1, size_t size)
   memmove(tmp, ptr0, size);
   memmove(ptr0, ptr1, size);
   memmove(ptr1, tmp, size);
+  free(tmp);
 }
 
 enum {BUFFER_SIZE = 100};
@@ -69,37 +70,38 @@ void main() {
   snprintf(myCstr, BUFFER_SIZE, "\n\n%s", "Using swapPointers: ");
   PrintString(myCstr);
   
-  snprintf(myCstr, BUFFER_SIZE, "\nBefore: LHS='%p', RHS='%p'", ptrA, ptrB);
+  snprintf(myCstr, BUFFER_SIZE, "\nBefore: LHS='%p' RHS='%p'", ptrA, ptrB);
   PrintString(myCstr);
 
   swapPointers(&ptrA, &ptrB, sizeof(ptrA));
     
-  snprintf(myCstr, BUFFER_SIZE, "\n After: LHS='%p', RHS='%p'", ptrA, ptrB);
+  snprintf(myCstr, BUFFER_SIZE, "\n After: LHS='%p' RHS='%p'", ptrA, ptrB);
   PrintString(myCstr);
   
-  snprintf(myCstr, BUFFER_SIZE, "\nBefore: LHS='%p', RHS='%p'", ptrC, ptrD);
+  snprintf(myCstr, BUFFER_SIZE, "\nBefore: LHS='%p' RHS='%p'", ptrC, ptrD);
   PrintString(myCstr);
 
   swapPointers(&ptrC, &ptrD, sizeof(ptrC));
     
-  snprintf(myCstr, BUFFER_SIZE, "\n After: LHS='%p', RHS='%p'", ptrC, ptrD);
+  snprintf(myCstr, BUFFER_SIZE, "\n After: LHS='%p' RHS='%p'", ptrC, ptrD);
   PrintString(myCstr);
   
-  snprintf(myCstr, BUFFER_SIZE, "\nBefore: LHS='%p', RHS='%p'", ptrA, ptrD);
+  snprintf(myCstr, BUFFER_SIZE, "\nBefore: LHS='%p' RHS='%p'", ptrA, ptrD);
   PrintString(myCstr);
 
   swapPointers(&ptrA, &ptrD, sizeof(ptrD));
     
-  snprintf(myCstr, BUFFER_SIZE, "\n After: LHS='%p', RHS='%p'", ptrA, ptrD);
+  snprintf(myCstr, BUFFER_SIZE, "\n After: LHS='%p' RHS='%p'", ptrA, ptrD);
   PrintString(myCstr);
   
-  snprintf(myCstr, BUFFER_SIZE, "\nBefore: LHS='%p', RHS='%p'", aLhs, aRhs);
+  snprintf(myCstr, BUFFER_SIZE, "\nBefore: LHS='%p' RHS='%p'", aLhs, aRhs);
   PrintString(myCstr);
 
   // Does not work with pointers to arrays of chars
+  // But, at least, does not mess up the arrays
   swapPointers(&aLhs, &aRhs, sizeof(aLhs));
     
-  snprintf(myCstr, BUFFER_SIZE, "\n After: LHS='%p', RHS='%p'", aLhs, aRhs);
+  snprintf(myCstr, BUFFER_SIZE, "\n After: LHS='%p' RHS='%p'", aLhs, aRhs);
   PrintString(myCstr);
   
   // PROBLEM 2: Run sqrAsm code from the class demo
@@ -128,7 +130,7 @@ void main() {
     snprintf(myCstr, BUFFER_SIZE, "\n%4d divided by 2 is ", value);
     const int square = div2Asm(value);
     
-    snprintf(myCstr, BUFFER_SIZE, "%5d", square);
+    snprintf(myCstr, BUFFER_SIZE, "%3d", square);
     PrintString(myCstr);
   }
 
@@ -138,10 +140,10 @@ void main() {
 
   for( size_t index = 0; index < sizeof(aLhs)/sizeof(aLhs[0]); ++index) 
   {   
-    snprintf(myCstr, BUFFER_SIZE, "\nBefore: LHS='%c', RHS='%c'", aLhs[index], aRhs[index]);
+    snprintf(myCstr, BUFFER_SIZE, "\nBefore: LHS='%c' RHS='%c'", aLhs[index], aRhs[index]);
     int isNotEqual = swapCharsAsm(aLhs+index, aRhs+index);
     
-    snprintf(myCstr, BUFFER_SIZE, "\n After: LHS='%c', RHS='%c'", aLhs[index], aRhs[index]);
+    snprintf(myCstr, BUFFER_SIZE, "\n After: LHS='%c' RHS='%c'", aLhs[index], aRhs[index]);
     PrintString(myCstr);
     
     snprintf(myCstr, BUFFER_SIZE, "\nLHS equals RHS: %s", isNotEqual ? "false" : "true");

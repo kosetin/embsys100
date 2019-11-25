@@ -105398,356 +105398,6 @@
     "scope": null
   },
   {
-    "ID": "c:print.h@336@macro@__PRINT_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__PRINT_H",
-    "location": {
-      "column": "9",
-      "line": "10",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "__PRINT_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintHex",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintHex(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "16",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintHex",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintHex",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintHex(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "16",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintHex",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Print_uint32",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Print_uint32(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "Print_uint32",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Print_uint32",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Print_uint32(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "Print_uint32",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintByte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintByte(char)",
-    "location": {
-      "column": "6",
-      "line": "18",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintByte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintByte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintByte(char)",
-    "location": {
-      "column": "6",
-      "line": "18",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintByte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintString",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintString(char *)",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintString",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintString",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintString(char *)",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintString",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@stringbuffer",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "stringbuffer",
-    "location": {
-      "column": "13",
-      "line": "26",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "stringbuffer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@961@macro@_DBG_PRINTX_ARG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DBG_PRINTX_ARG",
-    "location": {
-      "column": "9",
-      "line": "28",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "_DBG_PRINTX_ARG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@1041@macro@PRINTBUFMAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PRINTBUFMAX",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PRINTBUFMAX",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@1066@macro@RETAILMSG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RETAILMSG",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "RETAILMSG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@1201@macro@PRINT_DEFINEBUFFER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PRINT_DEFINEBUFFER",
-    "location": {
-      "column": "9",
-      "line": "32",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PRINT_DEFINEBUFFER",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@1262@macro@PRINT_BUFFER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PRINT_BUFFER",
-    "location": {
-      "column": "9",
-      "line": "33",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PRINT_BUFFER",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.c@641@macro@BUFFER_LENGTH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BUFFER_LENGTH",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
-    },
-    "name": "BUFFER_LENGTH",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@buffer",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "buffer",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
-    },
-    "name": "buffer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintHex",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PrintHex(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "21",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
-    },
-    "name": "PrintHex",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:print.c@807@F@PrintHex@u32Mask",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u32Mask",
-    "location": {
-      "column": "12",
-      "line": "22",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
-    },
-    "name": "u32Mask",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:print.c@842@F@PrintHex@u32Shift",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u32Shift",
-    "location": {
-      "column": "12",
-      "line": "23",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
-    },
-    "name": "u32Shift",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:print.c@869@F@PrintHex@u32Char",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u32Char",
-    "location": {
-      "column": "12",
-      "line": "24",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
-    },
-    "name": "u32Char",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Print_uint32",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Print_uint32(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "38",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
-    },
-    "name": "Print_uint32",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:print.c@1170@F@Print_uint32@p",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "p",
-    "location": {
-      "column": "7",
-      "line": "39",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
-    },
-    "name": "p",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintString",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PrintString(char *)",
-    "location": {
-      "column": "6",
-      "line": "51",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
-    },
-    "name": "PrintString",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintByte",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PrintByte(char)",
-    "location": {
-      "column": "6",
-      "line": "69",
-      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
-    },
-    "name": "PrintByte",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@clr_scrn",
     "What": "Variable",
     "defdec": "Def",
@@ -105886,7 +105536,7 @@
         "display": "BUFFER_SIZE",
         "location": {
           "column": "7",
-          "line": "38",
+          "line": "39",
           "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
         },
         "name": "BUFFER_SIZE",
@@ -105896,7 +105546,7 @@
     ],
     "location": {
       "column": "1",
-      "line": "38",
+      "line": "39",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "",
@@ -105910,7 +105560,7 @@
     "display": "myCstr",
     "location": {
       "column": "6",
-      "line": "39",
+      "line": "40",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "myCstr",
@@ -105924,7 +105574,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "46",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "main",
@@ -105932,13 +105582,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1717@F@main@a",
+    "ID": "c:main.c@1731@F@main@a",
     "What": "Variable",
     "defdec": "Def",
     "display": "a",
     "location": {
       "column": "7",
-      "line": "54",
+      "line": "55",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "a",
@@ -105946,13 +105596,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1731@F@main@b",
+    "ID": "c:main.c@1745@F@main@b",
     "What": "Variable",
     "defdec": "Def",
     "display": "b",
     "location": {
       "column": "7",
-      "line": "55",
+      "line": "56",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "b",
@@ -105960,13 +105610,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1750@F@main@ptrA",
+    "ID": "c:main.c@1764@F@main@ptrA",
     "What": "Variable",
     "defdec": "Def",
     "display": "ptrA",
     "location": {
       "column": "8",
-      "line": "57",
+      "line": "58",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "ptrA",
@@ -105974,13 +105624,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1769@F@main@ptrB",
+    "ID": "c:main.c@1783@F@main@ptrB",
     "What": "Variable",
     "defdec": "Def",
     "display": "ptrB",
     "location": {
       "column": "8",
-      "line": "58",
+      "line": "59",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "ptrB",
@@ -105988,13 +105638,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1792@F@main@c",
+    "ID": "c:main.c@1806@F@main@c",
     "What": "Variable",
     "defdec": "Def",
     "display": "c",
     "location": {
       "column": "8",
-      "line": "60",
+      "line": "61",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "c",
@@ -106002,13 +105652,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1810@F@main@d",
+    "ID": "c:main.c@1824@F@main@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
     "location": {
       "column": "8",
-      "line": "61",
+      "line": "62",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "d",
@@ -106016,13 +105666,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1833@F@main@ptrC",
+    "ID": "c:main.c@1847@F@main@ptrC",
     "What": "Variable",
     "defdec": "Def",
     "display": "ptrC",
     "location": {
       "column": "9",
-      "line": "63",
+      "line": "64",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "ptrC",
@@ -106030,13 +105680,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1853@F@main@ptrD",
+    "ID": "c:main.c@1867@F@main@ptrD",
     "What": "Variable",
     "defdec": "Def",
     "display": "ptrD",
     "location": {
       "column": "9",
-      "line": "64",
+      "line": "65",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "ptrD",
@@ -106044,13 +105694,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1877@F@main@aLhs",
+    "ID": "c:main.c@1891@F@main@aLhs",
     "What": "Variable",
     "defdec": "Def",
     "display": "aLhs",
     "location": {
       "column": "8",
-      "line": "66",
+      "line": "67",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "aLhs",
@@ -106058,13 +105708,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1906@F@main@aRhs",
+    "ID": "c:main.c@1920@F@main@aRhs",
     "What": "Variable",
     "defdec": "Def",
     "display": "aRhs",
     "location": {
       "column": "8",
-      "line": "67",
+      "line": "68",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "aRhs",
@@ -106072,13 +105722,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3271@F@main@aValues",
+    "ID": "c:main.c@3326@F@main@aValues",
     "What": "Variable",
     "defdec": "Def",
     "display": "aValues",
     "location": {
       "column": "13",
-      "line": "108",
+      "line": "110",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "aValues",
@@ -106086,13 +105736,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3352@F@main@index",
+    "ID": "c:main.c@3407@F@main@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "15",
-      "line": "110",
+      "line": "112",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "index",
@@ -106100,13 +105750,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3435@F@main@value",
+    "ID": "c:main.c@3490@F@main@value",
     "What": "Variable",
     "defdec": "Def",
     "display": "value",
     "location": {
       "column": "15",
-      "line": "112",
+      "line": "114",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "value",
@@ -106114,13 +105764,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3538@F@main@square",
+    "ID": "c:main.c@3593@F@main@square",
     "What": "Variable",
     "defdec": "Def",
     "display": "square",
     "location": {
       "column": "15",
-      "line": "114",
+      "line": "116",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "square",
@@ -106128,13 +105778,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3840@F@main@aDivValues",
+    "ID": "c:main.c@3895@F@main@aDivValues",
     "What": "Variable",
     "defdec": "Def",
     "display": "aDivValues",
     "location": {
       "column": "13",
-      "line": "123",
+      "line": "125",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "aDivValues",
@@ -106142,13 +105792,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3930@F@main@index",
+    "ID": "c:main.c@3985@F@main@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "15",
-      "line": "125",
+      "line": "127",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "index",
@@ -106156,13 +105806,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4019@F@main@value",
+    "ID": "c:main.c@4074@F@main@value",
     "What": "Variable",
     "defdec": "Def",
     "display": "value",
     "location": {
       "column": "15",
-      "line": "127",
+      "line": "129",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "value",
@@ -106170,13 +105820,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4130@F@main@square",
+    "ID": "c:main.c@4185@F@main@square",
     "What": "Variable",
     "defdec": "Def",
     "display": "square",
     "location": {
       "column": "15",
-      "line": "129",
+      "line": "131",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "square",
@@ -106184,13 +105834,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4440@F@main@index",
+    "ID": "c:main.c@4495@F@main@index",
     "What": "Variable",
     "defdec": "Def",
     "display": "index",
     "location": {
       "column": "15",
-      "line": "139",
+      "line": "141",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "index",
@@ -106198,13 +105848,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4613@F@main@isNotEqual",
+    "ID": "c:main.c@4667@F@main@isNotEqual",
     "What": "Variable",
     "defdec": "Def",
     "display": "isNotEqual",
     "location": {
       "column": "9",
-      "line": "142",
+      "line": "144",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "isNotEqual",
@@ -106218,7 +105868,7 @@
     "display": "void SystemInit(void)",
     "location": {
       "column": "6",
-      "line": "156",
+      "line": "158",
       "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\main.c"
     },
     "name": "SystemInit",
@@ -108080,6 +107730,314 @@
     "scope": null
   },
   {
+    "ID": "c:DLib_Product_stdlib.h@251@macro@_DLIB_PRODUCTS_STDLIB_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCTS_STDLIB_H_",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "_DLIB_PRODUCTS_STDLIB_H_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__aeabi_idivmod",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "div_t __aeabi_idivmod(int, int)",
+    "location": {
+      "column": "7",
+      "line": "23",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "__aeabi_idivmod",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__aeabi_ldivmod",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "lldiv_t __aeabi_ldivmod(long long, long long)",
+    "location": {
+      "column": "11",
+      "line": "27",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "__aeabi_ldivmod",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@div",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "div_t div(int, int)",
+    "location": {
+      "column": "7",
+      "line": "32",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "div",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_stdlib.h@737@F@div@q",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "q",
+    "location": {
+      "column": "7",
+      "line": "35",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "q",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_stdlib.h@755@F@div@r",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "r",
+    "location": {
+      "column": "7",
+      "line": "36",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "r",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_stdlib.h@777@F@div@d",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "d",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "d",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ldiv",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "ldiv_t ldiv(long, long)",
+    "location": {
+      "column": "8",
+      "line": "48",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "ldiv",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_stdlib.h@991@F@ldiv@q",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "q",
+    "location": {
+      "column": "7",
+      "line": "51",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "q",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_stdlib.h@1009@F@ldiv@r",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "r",
+    "location": {
+      "column": "7",
+      "line": "52",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "r",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_stdlib.h@1031@F@ldiv@ld",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ld",
+    "location": {
+      "column": "10",
+      "line": "53",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "ld",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@lldiv",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "lldiv_t lldiv(long long, long long)",
+    "location": {
+      "column": "11",
+      "line": "68",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+    },
+    "name": "lldiv",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@641@macro@BUFFER_LENGTH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUFFER_LENGTH",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
+    },
+    "name": "BUFFER_LENGTH",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@buffer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "buffer",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
+    },
+    "name": "buffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintHex",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PrintHex(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
+    },
+    "name": "PrintHex",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@807@F@PrintHex@u32Mask",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u32Mask",
+    "location": {
+      "column": "12",
+      "line": "22",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
+    },
+    "name": "u32Mask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@842@F@PrintHex@u32Shift",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u32Shift",
+    "location": {
+      "column": "12",
+      "line": "23",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
+    },
+    "name": "u32Shift",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@869@F@PrintHex@u32Char",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u32Char",
+    "location": {
+      "column": "12",
+      "line": "24",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
+    },
+    "name": "u32Char",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Print_uint32",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Print_uint32(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "38",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
+    },
+    "name": "Print_uint32",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@1170@F@Print_uint32@p",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "p",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
+    },
+    "name": "p",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintString",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PrintString(char *)",
+    "location": {
+      "column": "6",
+      "line": "51",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
+    },
+    "name": "PrintString",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintByte",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PrintByte(char)",
+    "location": {
+      "column": "6",
+      "line": "69",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\src\\print.c"
+    },
+    "name": "PrintByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:DLib_Product_string.h@326@macro@_DLIB_PRODUCTS_STRING_H_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -108262,171 +108220,213 @@
     "scope": null
   },
   {
-    "ID": "c:DLib_Product_stdlib.h@251@macro@_DLIB_PRODUCTS_STDLIB_H_",
+    "ID": "c:print.h@336@macro@__PRINT_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_PRODUCTS_STDLIB_H_",
+    "display": "__PRINT_H",
     "location": {
       "column": "9",
       "line": "10",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "_DLIB_PRODUCTS_STDLIB_H_",
-    "origin": "system_include",
+    "name": "__PRINT_H",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@__aeabi_idivmod",
+    "ID": "c:@F@PrintHex",
     "What": "Function",
     "defdec": "Dec",
-    "display": "div_t __aeabi_idivmod(int, int)",
+    "display": "void PrintHex(uint32_t)",
     "location": {
-      "column": "7",
-      "line": "23",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "column": "6",
+      "line": "16",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "__aeabi_idivmod",
-    "origin": "system_include",
+    "name": "PrintHex",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@__aeabi_ldivmod",
+    "ID": "c:@F@PrintHex",
     "What": "Function",
     "defdec": "Dec",
-    "display": "lldiv_t __aeabi_ldivmod(long long, long long)",
+    "display": "void PrintHex(uint32_t)",
     "location": {
-      "column": "11",
-      "line": "27",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "column": "6",
+      "line": "16",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "__aeabi_ldivmod",
-    "origin": "system_include",
+    "name": "PrintHex",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@div",
+    "ID": "c:@F@Print_uint32",
     "What": "Function",
-    "defdec": "Def",
-    "display": "div_t div(int, int)",
+    "defdec": "Dec",
+    "display": "void Print_uint32(uint32_t)",
     "location": {
-      "column": "7",
-      "line": "32",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "column": "6",
+      "line": "17",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "div",
-    "origin": "system_include",
+    "name": "Print_uint32",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product_stdlib.h@737@F@div@q",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "q",
+    "ID": "c:@F@Print_uint32",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Print_uint32(uint32_t)",
     "location": {
-      "column": "7",
-      "line": "35",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "column": "6",
+      "line": "17",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "q",
-    "origin": "system_include",
+    "name": "Print_uint32",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product_stdlib.h@755@F@div@r",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "r",
+    "ID": "c:@F@PrintByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PrintByte(char)",
     "location": {
-      "column": "7",
-      "line": "36",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "column": "6",
+      "line": "18",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "r",
-    "origin": "system_include",
+    "name": "PrintByte",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product_stdlib.h@777@F@div@d",
+    "ID": "c:@F@PrintByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PrintByte(char)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PrintByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintString",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PrintString(char *)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PrintString",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintString",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PrintString(char *)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PrintString",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@stringbuffer",
     "What": "Variable",
+    "defdec": "Dec",
+    "display": "stringbuffer",
+    "location": {
+      "column": "13",
+      "line": "26",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
+    },
+    "name": "stringbuffer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:print.h@961@macro@_DBG_PRINTX_ARG",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "d",
+    "display": "_DBG_PRINTX_ARG",
     "location": {
       "column": "9",
-      "line": "37",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "line": "28",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "d",
-    "origin": "system_include",
+    "name": "_DBG_PRINTX_ARG",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ldiv",
-    "What": "Function",
+    "ID": "c:print.h@1041@macro@PRINTBUFMAX",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "ldiv_t ldiv(long, long)",
+    "display": "PRINTBUFMAX",
     "location": {
-      "column": "8",
-      "line": "48",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "column": "9",
+      "line": "29",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "ldiv",
-    "origin": "system_include",
+    "name": "PRINTBUFMAX",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product_stdlib.h@991@F@ldiv@q",
-    "What": "Variable",
+    "ID": "c:print.h@1066@macro@RETAILMSG",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "q",
+    "display": "RETAILMSG",
     "location": {
-      "column": "7",
-      "line": "51",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "q",
-    "origin": "system_include",
+    "name": "RETAILMSG",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product_stdlib.h@1009@F@ldiv@r",
-    "What": "Variable",
+    "ID": "c:print.h@1201@macro@PRINT_DEFINEBUFFER",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "r",
+    "display": "PRINT_DEFINEBUFFER",
     "location": {
-      "column": "7",
-      "line": "52",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "column": "9",
+      "line": "32",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "r",
-    "origin": "system_include",
+    "name": "PRINT_DEFINEBUFFER",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product_stdlib.h@1031@F@ldiv@ld",
-    "What": "Variable",
+    "ID": "c:print.h@1262@macro@PRINT_BUFFER",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "ld",
+    "display": "PRINT_BUFFER",
     "location": {
-      "column": "10",
-      "line": "53",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Users\\ksevd\\Documents\\embsys100\\assignment01\\HelloWorld\\inc\\print.h"
     },
-    "name": "ld",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@lldiv",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "lldiv_t lldiv(long long, long long)",
-    "location": {
-      "column": "11",
-      "line": "68",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Product_stdlib.h"
-    },
-    "name": "lldiv",
-    "origin": "system_include",
+    "name": "PRINT_BUFFER",
+    "origin": "user_include",
     "scope": null
   },
   {
