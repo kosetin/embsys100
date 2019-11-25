@@ -2420,4 +2420,13 @@
             <name>$PROJ_DIR$\src\print.c</name>
         </file>
     </group>
+    <file>
+        <name>$PROJ_DIR$\..\..\assignment05\div2Asm.s</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\..\..\..\..\Downloads\sqrAsm.s</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\..\..\assignment05\swapCharsAsm.s</name>
+    </file>
 </project>

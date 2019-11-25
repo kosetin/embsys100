@@ -32,11 +32,11 @@
                 </option>
                 <option>
                     <name>Input description</name>
-                    <state>Automatic choice of formatter.</state>
+                    <state>Automatic choice of formatter, without multibyte support.</state>
                 </option>
                 <option>
                     <name>Output description</name>
-                    <state>Automatic choice of formatter.</state>
+                    <state>Automatic choice of formatter, without multibyte support.</state>
                 </option>
                 <option>
                     <name>GOutputBinary</name>
@@ -117,7 +117,7 @@
                 <option>
                     <name>GBECoreSlave</name>
                     <version>27</version>
-                    <state>40</state>
+                    <state>39</state>
                 </option>
                 <option>
                     <name>OGUseCmsis</name>
@@ -1003,7 +1003,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>###Unitialized###</state>
+                    <state>HelloWorld_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -2156,4 +2156,13 @@
             <name>$PROJ_DIR$\src\print.c</name>
         </file>
     </group>
+    <file>
+        <name>$PROJ_DIR$\..\..\assignment05\div2Asm.s</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\..\..\..\..\Downloads\sqrAsm.s</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\..\..\assignment05\swapCharsAsm.s</name>
+    </file>
 </project>
