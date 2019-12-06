@@ -53,7 +53,7 @@ void main(void)
      
   SysTick_Init();
   
-  SubscriberID sID = delay(500, Toggle_LED);
+  SubscriberID sID = delay(2000, Toggle_LED);
   
   while(1)
   {
