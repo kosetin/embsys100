@@ -1,6 +1,13 @@
 #ifndef __SUBSCRIBER_H__
 #define __SUBSCRIBER_H__
 
+#define HSubscriber TSubscriber*
+#define BAD_SUBSCRIBER -1
+
+typedef int SubscriberID;
+
+enum { MAX_SUBSCRIBERS = 5 };
+
 typedef struct Subscriber
 {
   unsigned int current;
@@ -9,6 +16,8 @@ typedef struct Subscriber
 } TSubscriber;
 
 void Notify_SysTick(void);
-TSubscriber * Register_Subscriber_SysTick(void);
+SubscriberID RegisterSubscriber(void);
+HSubscriber GetSubscriber(SubscriberID id);
+void ServiceSubscriber(SubscriberID id);
 
 #endif

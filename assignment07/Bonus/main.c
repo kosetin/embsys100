@@ -2,6 +2,7 @@
 #include "subscriber.h"
 #include "../../assignment06/stm32f401xe.h"
 
+// After reset, the CPU clock frequency is 16 MHz (RM0368)
 #define SYS_CLOCK_HZ 16000000
 #define MSEC SYS_CLOCK_HZ/1000-1
 
@@ -9,11 +10,10 @@ void SysTick_Init(void);
 void LED_Init(void);
 void Toggle_LED(void);
 
-void delay(uint32_t delayInMilliseconds, void (*callback)(void));
+int delay(uint32_t delayInMilliseconds, void (*callback)(void));
 
 void SysTick_Init(void)
 {
-  // After reset, the CPU clock frequency is 16 MHz (RM0368)
   SysTick->LOAD = MSEC;
   SysTick->VAL = 0;
   SysTick->CTRL =  SysTick_CTRL_CLKSOURCE_Msk
@@ -33,15 +33,18 @@ void Toggle_LED(void)
   GPIOA->ODR ^= GPIO_ODR_OD5;
 }
 
-void delay(uint32_t delayInMilliseconds, void (*callback)(void))
+int delay(uint32_t delayInMilliseconds, void (*callback)(void))
 {
-  TSubscriber * subscr = Register_Subscriber_SysTick();
+  SubscriberID id = RegisterSubscriber();
+  HSubscriber subscr = GetSubscriber(id);
   if (subscr)
   {
     subscr->threshold = delayInMilliseconds;
     subscr->current = delayInMilliseconds;
     subscr->callback = callback;
+    return id;
   }
+  return BAD_SUBSCRIBER;
 }
 
 void main(void)
@@ -50,10 +53,10 @@ void main(void)
      
   SysTick_Init();
   
-  delay(2000, Toggle_LED);
+  SubscriberID sID = delay(500, Toggle_LED);
   
   while(1)
   {
-    // Event Loop
+    ServiceSubscriber(sID);
   }
 }

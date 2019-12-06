@@ -1,7 +1,5 @@
 #include "subscriber.h"
 
-enum { MAX_SUBSCRIBERS = 10 };
-
 TSubscriber systick_subscribers[MAX_SUBSCRIBERS];
 
 unsigned int NUM_SUBSCRIBERS = 0;
@@ -11,20 +9,33 @@ void Notify_SysTick(void)
   unsigned int index;
   for (index = 0; index < NUM_SUBSCRIBERS; ++index)
   {
-    TSubscriber * thisSubscriber = &systick_subscribers[index];
-    if(thisSubscriber->current++ >= thisSubscriber->threshold)
+    systick_subscribers[index].current++;
+  }
+}
+
+SubscriberID RegisterSubscriber(void)
+{
+  if (NUM_SUBSCRIBERS >= MAX_SUBSCRIBERS)
+  {
+    return BAD_SUBSCRIBER;
+  }
+  return NUM_SUBSCRIBERS++;
+}
+
+void ServiceSubscriber(SubscriberID id)
+{
+    if (id < 0 || id >= MAX_SUBSCRIBERS) return;
+    
+    TSubscriber * thisSubscriber = &systick_subscribers[id];
+    if(thisSubscriber->current >= thisSubscriber->threshold)
     {
       thisSubscriber->callback();
       thisSubscriber->current = 0;
     }
-  }
 }
 
-TSubscriber * Register_Subscriber_SysTick(void)
+HSubscriber GetSubscriber(SubscriberID id)
 {
-  if (NUM_SUBSCRIBERS > MAX_SUBSCRIBERS-1)
-  {
-    return 0;
-  }
-  return &systick_subscribers[NUM_SUBSCRIBERS++];
+  if (id < 0 || id >= MAX_SUBSCRIBERS) return 0;
+  return &systick_subscribers[id];
 }
