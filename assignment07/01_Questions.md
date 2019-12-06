@@ -1,6 +1,6 @@
 ### <em>Stack inside the interrupt</em> ###
 
-<a href="#"><img src="https://github.com/kosetin/embsys100/blob/assets/assignment07/assignment07_1b.JPG" /></a>
+<a href="#"><img src="https://github.com/kosetin/embsys100/blob/assets/assignment07/assignment07_1b.jpg" /></a>
 
 
 ### <em>LR value inside the interrupt</em> ###
