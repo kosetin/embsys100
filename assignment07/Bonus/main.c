@@ -13,11 +13,12 @@ void delay(uint32_t delayInMilliseconds, void (*callback)(void));
 
 void SysTick_Init(void)
 {
+  // After reset, the CPU clock frequency is 16 MHz (RM0368)
   SysTick->LOAD = MSEC;
-  SysTick->CTRL = SysTick_CTRL_CLKSOURCE_Msk 
-                | SysTick_CTRL_TICKINT_Msk 
-                | SysTick_CTRL_ENABLE_Msk;
   SysTick->VAL = 0;
+  SysTick->CTRL =  SysTick_CTRL_CLKSOURCE_Msk
+                 | SysTick_CTRL_TICKINT_Msk 
+                 | SysTick_CTRL_ENABLE_Msk;
 }
 
 void LED_Init(void)
@@ -29,7 +30,7 @@ void LED_Init(void)
 
 void Toggle_LED(void)
 {
-    GPIOA->ODR ^= GPIO_ODR_OD5;
+  GPIOA->ODR ^= GPIO_ODR_OD5;
 }
 
 void delay(uint32_t delayInMilliseconds, void (*callback)(void))
