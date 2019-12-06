@@ -24,10 +24,8 @@ SubscriberID RegisterSubscriber(void)
 
 void ServiceSubscriber(SubscriberID id)
 {
-    if (id < 0 || id >= MAX_SUBSCRIBERS) return;
-    
-    TSubscriber * thisSubscriber = &systick_subscribers[id];
-    if(thisSubscriber->current >= thisSubscriber->threshold)
+    HSubscriber thisSubscriber =GetSubscriber(id);
+    if(thisSubscriber && thisSubscriber->current >= thisSubscriber->threshold)
     {
       thisSubscriber->callback();
       thisSubscriber->current = 0;
