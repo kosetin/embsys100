@@ -54,7 +54,7 @@ void main(void)
   SysTick_Init();
   
   SubscriberID sID = delay(2000, Toggle_LED);
-  
+  //__disable_irq();
   while(1)
   {
     ServiceSubscriber(sID);
